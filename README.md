@@ -7,6 +7,7 @@ This is my approach to protect PC from common security threats.
 - Randomize kernel things
 - Initialize heap memory with zeroes
 - Enable debuging kernel data structures
+- Other security settings, for ex. Kernel Self Protection Project.
 4. Build firmware blobs into the kernel binary, when there is no open alternatives.
 5. Full disk encryption with LUKS (Linux Unified Key Setup). Key is a several megabyte file encrypted with AES256 symmetric-key. This key placed at USB stick and used during initramfs loading to decrypt LVM disks with LUKS aes-xts-plain64 algorithm.
 6. Hardening /etc/fstab
