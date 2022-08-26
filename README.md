@@ -14,6 +14,6 @@ This is my approach to protect PC from common security threats.
 - proc /proc proc hidepid=2,nosuid,noexec,gid=wheel
 - separate partition /home with mount options noexec,nosuid,nodev
 7. Simple firewall with iptables or nftables. No log analyzer.
-8. Install POSIX Capabilities and active secure computing mode.
+8. Install POSIX Capabilities and active secure computing mode USE="caps seccomp".
 9. Logging under root activated, sudo for root deactivated.
 10. Separate user for every big application. Firejail with carefully crafted configurations. It prevents from keyloggers and information gathering.
