@@ -1,4 +1,4 @@
-This is my approach to protect PC from common security threats.
+# Here is my approach to protect PC from common security threats.
 1. Replace proprietary BIOS with coreboot or HEADS (https://osresearch.net/).
 2. Secure boot with password or locate at USB stick or encrypt boot partition with lightweight LUKS encryption + GRUB2.
 2. OS Gentoo Linux stable relase only open source licensies. Full recompilation. Non systemd. Non root Xorg.
@@ -17,3 +17,12 @@ This is my approach to protect PC from common security threats.
 8. Install POSIX Capabilities and active secure computing mode USE="caps seccomp".
 9. Logging under root activated, sudo for root deactivated.
 10. Separate user for every big application. Firejail with carefully crafted configurations. It prevents from keyloggers and information gathering.
+
+Browser:
+- VPN over Tor
+- Firefox or TorBrowser
+- User-Agent changer
+- Hide all fingerprints: Canvas, Fonts, TimeZone
+- Disable some of the browser functionality (user.json)
+- Disable insecure SSL ciphers, rise up version
+- Disable JavaScript whenever it is possible
