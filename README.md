@@ -1,6 +1,6 @@
 # Here is my approach to protect PC from common security threats.
-1. Replace proprietary BIOS with coreboot or HEADS (https://github.com/merge/skulls).
-2. Secure boot with password or locate at USB stick or encrypt boot partition with lightweight LUKS2 encryption + GRUB2.
+1. Replace proprietary BIOS with coreboot (https://github.com/merge/skulls).
+2. Secure boot with password and USB stick.
 2. OS Gentoo Linux stable relase only open source licensies. Full recompilation. Non systemd. Non root Xorg.
 3. Linux kernel compilation with disabled loadable modules and security hardening, such as:
 - Strong Stack Protector
