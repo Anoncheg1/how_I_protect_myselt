@@ -17,6 +17,7 @@
 8. Install POSIX Capabilities and active secure computing mode (USE="caps seccomp").
 9. Logging under root activated, sudo for root deactivated.
 10. Separate user for every big application. Firejail with carefully crafted configurations. It prevents keyloggers and information gathering.
+11. Disable USB ports and block inputs by timeout.
 
 Browser:
 - VPN over Tor
